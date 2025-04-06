@@ -1,0 +1,67 @@
+@media screen and (max-width:600px)
+{
+img{
+   height: 70px;
+   width: 150px;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: rgb(238, 220, 170);
+  width: 580px;
+align
+}
+.child{
+ 
+margin:0;
+}
+button{
+  padding: 8px;
+  width: 580px;
+  background-color: #ED944D;
+  margin: 0%;
+}
+
+}
+
+
+@media screen and (min-width:601px)
+{
+.container {
+    background-image:url(daniel-olah-VS_kFx4yF5g-unsplash.jpg);
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #9c9770;
+    font-family: Arial, Helvetica, sans-serif;
+    color: antiquewhite;
+    border-radius: 8px;
+}
+
+button{
+   margin:12px;
+   background-color: #ED944D;
+   padding: 10px 11px;
+   font-family: Impact, sans-serif;
+   border-radius: 8px;
+}
+
+button:hover{
+    margin: 12px;
+    padding: 10px 11px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    font-family: Impact, sans-serif;    
+    color: #ED944D;   
+   }
+img{
+height:70px;
+width:160px;
+}
+body{
+   background-color:rgb(45, 45, 45) ;
+}
+}

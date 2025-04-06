@@ -1,0 +1,31 @@
+
+body
+{
+background-color:orange;
+display:flex;
+align-items: center;
+justify-content: center;
+height: 100vh;
+}
+
+.loginbox{
+    color: antiquewhite;
+    background-color: rgb(187, 128, 61);
+    height: 400px;
+    width: 350px;
+    text-align: center;
+    border-radius: 40px;
+}
+
+input{
+
+    padding: 10px;
+    border-radius: 5px;
+    margin: 15px;
+}
+
+button{
+    padding: 15px 20px;
+    border-radius: 20px;
+  }
+  
